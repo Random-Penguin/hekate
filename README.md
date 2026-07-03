@@ -7,6 +7,8 @@ Adds a new config option for your `hekate_ipl.ini` named `contents`
 
 Helpful if your sysMMC and emuMMC are not matched firmware version wise (themes), or if you have mods where you need a certain version of the game, or are unsafe for normal switch use.
 
+Also checkout [sys-env](https://github.com/Lightos1/sys-env) by Lightos1, as it is a sysmodule using a similar method of renaming but does not work for separate sysmodules.
+
 Now without further ado...
 
 # hekate - Nyx
