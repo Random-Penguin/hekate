@@ -7,7 +7,11 @@ Adds a new config option for your `hekate_ipl.ini` named `contents`
 
 Helpful if your sysMMC and emuMMC are not matched firmware version wise (themes), or if you have mods where you need a certain version of the game, or are unsafe for normal switch use.
 
-Also checkout [sys-env](https://github.com/Lightos1/sys-env) by Lightos1, as it is a sysmodule using a similar method of renaming but does not work for separate sysmodules.
+Also check out [sys-env](https://github.com/Lightos1/sys-env) by Lightos1, as it is a sysmodule using a similar method of renaming but does not work for separate sysmodules.
+
+## Troubleshooting
+
+Version issues, or just general hekate fuckery? Try deleting `/bootloader/update.bin` and replace `/atmosphere/reboot_payload.bin` with a fresh copy from the [source repository](https://github.com/Atmosphere-NX/Atmosphere/releases/latest). If it fails, ping me @randompenguin on Discord.
 
 Now without further ado...
 
