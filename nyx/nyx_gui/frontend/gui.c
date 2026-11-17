@@ -2017,7 +2017,7 @@ static void _create_tab_home(lv_theme_t *th, lv_obj_t *parent)
 	// Set tagline label.
 	lv_obj_t *label_tagline = lv_label_create(parent, NULL);
 	lv_obj_set_style(label_tagline, &hint_small_style_white);
-	lv_label_set_static_text(label_tagline, "THE ALL IN ONE BOOTLOADER FOR ALL YOUR NEEDS");
+	lv_label_set_static_text(label_tagline, "RANDOMPENGUIN FORK");
 	lv_obj_set_pos(label_tagline, 50, 82);
 
 	static lv_style_t icons;
